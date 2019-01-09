@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  padding-top: 100px;
+  font-family: "Source Sans Pro";
+}
+
+h1 {
+  color: #14b9a5;
+  font-size: 50px;
+  padding: 0;
+}
+
+h2 {
+  display: inline-block;
+  color: #14b9a5;
+  font-size: 50px;
+  border-bottom: 3px solid #14b9a5;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.fundo {
+  height: 1100px;
+  background-image: linear-gradient(
+    to bottom,
+    #badcd7,
+    #badcd7,
+    #badcd7,
+    #b0cdd3,
+    #b0cdd3
+  );
+}
+
+.fundo2 {
+  background: #14b9a5;
+}
+
+.imagem-fundo {
+  width: 100%;
+  height: 300px;
+  background-image: url("https://uploads.codesandbox.io/uploads/user/7805b941-720d-4589-94c1-a59d5112f95c/FtHR-dogo.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.espacamento-cabecalho {
+  padding: 30px 30px;
+  width: 960px;
+  margin: auto;
+}
+
+.texto-cabecalho {
+  width: 40%;
+  color: white;
+}
+
+.botao-cabecalho {
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top: 20px;
+  border: 2px solid #14b9a5;
+  text-decoration: none;
+  color: #14b9a5;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.botao-cabecalho:hover {
+  background-color: #14b9a5;
+  color: white;
+}
+
+.inicio {
+  width: 100%;
+  height: 6px;
+  background: black;
+}
+
+.espacamento-scroll {
+  position: relative;
+  top: -100px;
+}
+
+.conteudo {
+}
+
+.topo {
+  width: 500px;
+  margin: auto;
+  background-color: #4dc4c4;
+  border: 3px solid #73ad21;
+}
+
+.topo1 {
+  width: 100%;
+  height: 100px;
+  margin: auto;
+
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background: white;
+}
+
+.topo1-marca {
+  padding: 0px 12px 0 10px;
+  top: 0;
+  margin: 0 0 0 5%;
+}
+
+.topo1-navegacao {
+  width: 450px;
+  height: 30px;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  color: #867f7f;
+}
+
+.link {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  padding: 15px 10px 15px 10px;
+}
+
+.link:hover {
+  background: #333;
+  color: white;
+}
+
+.espacamento {
+  height: 30px;
+}
+
+.espacamento-conteudo {
+  padding: 30px 30px 30px 30px;
+  text-align: center;
+}
+
+.dica {
+  width: 900px;
+  margin: auto;
+  background-color: white;
+}
+
+.oquefazemos {
+  width: 900px;
+  margin: 30px auto 0 auto;
+  background-color: white;
+}
+
+.areaclientes {
+  width: 900px;
+  margin: 30px auto 0 auto;
+  background-color: white;
+}
+
+#cartao-1 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/7805b941-720d-4589-94c1-a59d5112f95c/GsW3-1-gato-bravo.jpg");
+}
+#cartao-2 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/7805b941-720d-4589-94c1-a59d5112f95c/x6xF-2-papagaio.jpg");
+}
+#cartao-3 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/7805b941-720d-4589-94c1-a59d5112f95c/IXAi-3-porquinho.jpg");
+}
+#cartao-4 {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/7805b941-720d-4589-94c1-a59d5112f95c/Bh45-4-iguaninha.jpg");
+}
+
+.cartao-quemsomos {
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  margin: 30px;
+}
+
+.cartao-quesomos-info {
+  margin: 20px;
+  background-color: #14b9a5;
+  color: white;
+  width: 260px;
+  height: 260px;
+  text-align: center;
+  font-size: 50px;
+  line-height: 240px;
+  opacity: 0;
+}
+
+.cartao-quesomos-info:hover {
+  opacity: 0.9;
+}
+
+.rodape {
+  width: 900px;
+  height: 50px;
+  margin: auto;
+  background-color: white;
+  background-size: 100%;
+}
+
+.rodapé-marca {
+  float: left;
+  margin-left: 20;
+  margin-right: 20;
+  margin-bottom: 0;
+  margin-top: -10px;
+}
+
+.texto-rodapé {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 10px;
+  width: 400px;
+  text-align: center;
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: inherit;
+}
+
+.navegacao-rodape {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  width: 150px;
+  float: right;
+  margin-right: 20;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  margin-top: -40;
+}
